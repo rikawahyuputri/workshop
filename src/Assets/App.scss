@@ -1,0 +1,54 @@
+.container {
+    .navbar{
+        width: 100%;
+        background-color: blue;
+        background:  url('./IMG-20200618-WA0146.jpg') ;
+        padding: 2rem;
+        margin: 3rem;
+        text-align: center;
+        height: 50rem;
+        width: 40rem;
+       
+
+    }
+    .section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        .card{
+            background-color: rgb(223, 15, 195);
+            padding: 2rem;
+            
+        }
+        .section-body-3{
+            background-color: red;
+            padding: 2rem;
+            
+
+
+        }
+        .section-body-1{
+            background-color: blue;
+            width: 2rem;
+            padding: 2rem;
+        }
+    }
+
+    .body{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        .body-anak{
+            background-color: rgb(21, 177, 7);
+            width: 15rem;
+            height: 30rem;
+            .body-1{
+                display: flex;
+                justify-content:center ;
+            }
+        }
+        
+    }
+
+    }
